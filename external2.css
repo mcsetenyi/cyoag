@@ -1,0 +1,98 @@
+/*hoverable buttons used from w3schools "https://www.w3schools.com/css/css3_buttons.asp"*/
+
+.button {
+  background-color: #4CAF50;
+  width: 500px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  position: relative;
+  left: 50%; 
+  margin-left: -250px;
+  transition-timing-function: ease;
+}
+
+.button1 {
+  background-color: #7569e0; 
+  color: white; 
+  border: 2px solid #564caf;
+
+}
+
+.button1:hover {
+  background-color: #564caf;
+  color: white;
+}
+ 
+h1 {
+	font-size: 100px;
+	font-family: 'Aldrich';
+	text-align: center;
+	text-decoration: underline yellow;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: 'Aldrich';
+	text-align: center;
+}
+
+p {
+	font-size: 25px;
+	color: cyan;
+	font-family: 'Aldrich';
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+body {
+	background-color: #121212;
+	color: white
+}
+
+
+#container {
+	margin-left: 40%;
+	margin-right: 40%;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	animation-direction: reverse;
+	
+}
+
+
+#buttons {
+	width: 700px;
+	height: 300px;
+	position: relative;
+	left: 50%;
+	margin-left: -350px;
+	font-family: 'Aldrich';
+}
+
+#setting {
+	font-family: 'Aldrich';
+}
+
+#title {
+	font-size: 100px;
+	font-family: 'Aldrich';
+	text-align: center;
+	text-decoration: underline yellow;
+	
+}
+
+.image {
+	position: relative;
+	left: 50%;
+	margin-left: -607px;
+	height: 650px;
+}
